@@ -4,7 +4,7 @@ import java.io.File;
 
 /**
  * Class for setting properties of an object.
- * This class is extended by SimpleJson.
+ * This class will be extended by SimpleJson.
  */
 public class SimpleJsonProperty {
 
