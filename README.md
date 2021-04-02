@@ -19,7 +19,7 @@ The library was made using [Jackson](https://github.com/FasterXML/jackson).
 #### gradle
 ```gradle
 // https://github.com/TwoSquirrels/HttpAsFunctions
-implementation 'io.github.twosquirrels:httpasfunctions:1.3.0'
+implementation 'io.github.smile-ns.simplejson:SimpleJson:1.0.0'
 ```
 # Javadoc
 Javadoc
