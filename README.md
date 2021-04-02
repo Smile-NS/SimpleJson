@@ -25,24 +25,21 @@ implementation 'io.github.smile-ns.simplejson:SimpleJson:1.0.0'
 Javadoc
 # How to use?
 These are ways to use and example codes.  
-Also look at Javadoc because not all written here. 
-### Create an object.
-An empty object. 
+But also look at Javadoc because not all written here. 
+### Create an object. 
 ```java
-SimpleJson json = new SimpleJson();
+SimpleJson json = new SimpleJson(); // An empty object.
 ```
-An object with the specified file to save.  
-If already the file exists, create one by referencing the file.
 ```java
+// An object with the specified file to save.  
+// If already the file exists, create one by referencing the file.
 SimpleJson json = new SimpleJson(file);
 ```
-An object with another instance.
 ```java
-SimpleJson json = new SimpleJson(new Foo());
+SimpleJson json = new SimpleJson(new Foo()); // An object with another instance.
 ```
-An object with a string.
 ```java
-SimpleJson json = new SimpleJson("{\"smile\":\"noob\"}");
+SimpleJson json = new SimpleJson("{\"smile\":\"noob\"}"); // An object with a string.
 ```
 ### Put
 Put a (pseudo) primitive type element.
