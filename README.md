@@ -149,8 +149,8 @@ Convert and get an object.
 </dl>
 
 ### Save
-Save in a file.
-If doesn't specify a file to save from a constructor or SimpleJsonProperty#setFile(file), you can't save.
+Save in a file.  
+If you don't specify a file to save from a constructor or SimpleJsonProperty#setFile(file), you can't save.
 ```java
 json.save();
 ```
