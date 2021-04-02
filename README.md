@@ -22,7 +22,7 @@ The library was made using [Jackson](https://github.com/FasterXML/jackson).
 implementation 'io.github.smile-ns.simplejson:SimpleJson:1.0.0'
 ```
 # Javadoc
-[Javadoc](https://smile-ns.github.io/SimpleJson/)
+[Javadoc](https://smile-ns.github.io/SimpleJson/1.0.0/javadoc)
 # How to use?
 These are ways to use and example codes.  
 But also look at Javadoc because not all written here. 
