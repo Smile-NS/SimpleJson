@@ -1,12 +1,12 @@
 # SimpleJson
-## What is this?
+# What is this?
 SimpleJson is a library for easily writing or reading JSON.  
 You can use like Map.  
 You can also make handle to deep nodes with a symbol.  
 The library was made using [Jackson](https://github.com/FasterXML/jackson).
-## Download
+# Download
 * ver1.0.0:  
-## Dependencies 
+# Dependencies 
 #### maven
 ```xml
 <!-- https://github.com/Smile-NS/SimpleJson -->
@@ -21,9 +21,9 @@ The library was made using [Jackson](https://github.com/FasterXML/jackson).
 // https://github.com/TwoSquirrels/HttpAsFunctions
 implementation 'io.github.twosquirrels:httpasfunctions:1.3.0'
 ```
-## Javadoc
+# Javadoc
 Javadoc
-## How to use?
+# How to use?
 These are ways to use and example codes. 
 ### Create an object.
 An empty object. 
