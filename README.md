@@ -18,7 +18,7 @@ The library was made using [Jackson](https://github.com/FasterXML/jackson).
 ```
 #### gradle
 ```gradle
-// https://github.com/TwoSquirrels/HttpAsFunctions
+// https://github.com/Smile-NS/SimpleJson
 implementation 'io.github.smile-ns.simplejson:SimpleJson:1.0.0'
 ```
 # Javadoc
