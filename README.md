@@ -8,7 +8,7 @@ The library was made using [Jackson](https://github.com/FasterXML/jackson).
 * ver1.0.0:  
 ## Dependencies 
 #### maven
-```maven
+```xml
 <!-- https://github.com/Smile-NS/SimpleJson -->
 <dependency>
   <groupId>io.github.smile-ns.simplejson</groupId>
@@ -48,3 +48,27 @@ An object with JsonNode.
 SimpleJson json = new SimpleJson(JsonNode);
 ```
 ### Put an element.
+Put a (pseudo) primitive type element.
+```java
+json.put("id", 10);
+json.put("name", "test");
+...
+```
+```json
+{
+  "id": 10,
+  "name": "test"
+}
+```
+In this way, you can also put a value for a deep node. 
+```java
+json.put("smile.iq", 80);
+```
+```json
+{
+  "smile": {
+    "iq": 80
+  }
+}
+```
+
