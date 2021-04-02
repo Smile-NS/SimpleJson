@@ -57,6 +57,7 @@ json.put("name", "test");
 ```
 In this way, you can also put a value for a deep node.  
 Separate with '.'
+When try to find a node that doesn't exsist, create an empty node.
 ```java
 SimpleJson json = new SimpleJson();
 json.put("smile.iq", 80);
