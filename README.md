@@ -1,6 +1,50 @@
 # SimpleJson
-Library for easily writing or reading JSON.
-
-```java
-SimpleJson json = new SimpleJson(class-instance);
+## What is this?
+SimpleJson is a library for easily writing or reading JSON.  
+You can use like Map.  
+You can also make handle to deep nodes with a symbol.  
+The library was made using [Jackson](https://github.com/FasterXML/jackson).
+## Download
+* ver1.0.0:  
+## Dependencies 
+#### maven
+```maven
+<!-- https://github.com/Smile-NS/SimpleJson -->
+<dependency>
+  <groupId>io.github.smile-ns.simplejson</groupId>
+  <artifactId>SimpleJson</artifactId>
+  <version>1.0.0</version>
+</dependency>
 ```
+#### gradle
+```gradle
+// https://github.com/TwoSquirrels/HttpAsFunctions
+implementation 'io.github.twosquirrels:httpasfunctions:1.3.0'
+```
+## Javadoc
+Javadoc
+## How to use?
+These are ways to use and example codes. 
+### Create an object.
+An empty object. 
+```java
+SimpleJson json = new SimpleJson();
+```
+An object with the specified file to save.  
+If already the file exists, create one by referencing the file.
+```java
+SimpleJson json = new SimpleJson(file);
+```
+An object with another instance.
+```java
+SimpleJson json = new SimpleJson(new Foo());
+```
+An object with a string.
+```java
+SimpleJson json = new SimpleJson("{\"smile\":\"noob\"}");
+```
+An object with JsonNode.
+```java
+SimpleJson json = new SimpleJson(JsonNode);
+```
+### Put an element.
