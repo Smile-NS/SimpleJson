@@ -47,9 +47,10 @@ An object with JsonNode.
 ```java
 SimpleJson json = new SimpleJson(JsonNode);
 ```
-### Put an element.
+### Put
 Put a (pseudo) primitive type element.
 ```java
+SimpleJson json = new SimpleJson();
 json.put("id", 10);
 json.put("name", "test");
 ...
@@ -60,8 +61,10 @@ json.put("name", "test");
   "name": "test"
 }
 ```
-In this way, you can also put a value for a deep node. 
+In this way, you can also put a value for a deep node.  
+Separate with '.'
 ```java
+SimpleJson json = new SimpleJson();
 json.put("smile.iq", 80);
 ```
 ```json
@@ -71,4 +74,63 @@ json.put("smile.iq", 80);
   }
 }
 ```
+Put a reference type element.
+* Map and List
+```java
+SimpleJson json = new SimpleJson();
 
+Map<String, Integer> map = new HasMap<>();
+map.put("key", 3);
+json.put("map", map);
+
+List<String> list = new ArrayList<>();
+list.add("smile");
+list.add("angry");
+json.put("list", list);
+```
+```json
+{
+  "map": {
+    "key": 3
+  },
+  "list": [ "smile", "angry" ]
+}
+```
+* instance
+```java
+class Foo {
+    int id = 1;
+    String name = "test";
+}
+
+SimpleJson json = new SimpleJson();
+json.put("Foo", new Foo());
+```
+```json
+{
+  "Foo": {
+    "id": 1,
+    "name": "test"
+  }
+}
+```
+When put a reference type element, using SimpleJson#put(String, SimpleJson) is the fastest.
+```java
+SimpleJson json = new SimpleJson();
+SimpleJson json2 = new SimpleJson();
+json2.put("key", 10);
+json.put("json2", json2);
+```
+```json
+{
+  "json2": {
+    "key": 10
+  }
+}
+```
+### Remove
+Remove a selected node.  
+Like "put", you can remove a deep node.
+```java
+json.remove(key, value);
+```
