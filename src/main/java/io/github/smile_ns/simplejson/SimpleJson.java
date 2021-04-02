@@ -232,15 +232,6 @@ public class SimpleJson extends SimpleJsonProperty {
         if (deep) deepRemove(fieldPath);
     }
 
-    private void deepRemove(String fieldPath) {
-        String[] path = fieldPath.split(separator);
-        JsonNode node = getNode(getFieldPath(path.length - 1, path));
-        ObjectNode table = node.deepCopy();
-
-        table.remove(Arrays.asList(path));
-        putNode(getFieldPath(path.length - 1, path), table);
-    }
-
     /**
      * Clear contents of the object.
      */
@@ -468,7 +459,7 @@ public class SimpleJson extends SimpleJsonProperty {
 
     /**
      * Put a Map.
-     * Using JsonNode#put(fieldPath, SimpleJson) is faster than using this method.
+     * Using SimpleJson#put(String, SimpleJson) is faster than using this method.
      * @param fieldPath node path
      * @param v Map
      */
@@ -524,6 +515,16 @@ public class SimpleJson extends SimpleJsonProperty {
         return mapper.convertValue(root, new TypeReference<Map<String, Object>>() {});
     }
 
+
+    private void deepRemove(String fieldPath) {
+        String[] path = fieldPath.split(separator);
+        JsonNode node = getNode(getFieldPath(path.length - 1, path));
+        ObjectNode table = node.deepCopy();
+
+        table.remove(Arrays.asList(path));
+        putNode(getFieldPath(path.length - 1, path), table);
+    }
+
     private void deepPutPrim(String fieldPath, Object v) {
         String[] path = fieldPath.split(separator);
         JsonNode deepNode = getNode(getFieldPath(path.length - 1, path));
@@ -573,7 +574,7 @@ public class SimpleJson extends SimpleJsonProperty {
         putNode(fieldPath, node);
     }
 
-    private String getFieldPath(int index, String[] path) {
+    private static String getFieldPath(int index, String[] path) {
         StringBuilder fieldPath = new StringBuilder();
         for (int j = 0;j < index;j++) {
             fieldPath.append(path[j]);
