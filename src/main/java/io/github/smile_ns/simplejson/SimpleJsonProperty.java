@@ -59,7 +59,7 @@ public class SimpleJsonProperty {
     }
 
     /**
-     * Set whether to when try to find a node that doesn't exist, create an empty node.
+     * Set whether to when try to find a node that doesn't exist, create empty one.
      * The default value is true.
      * @param autoCreateNode True if you want to create an empty node.
      */

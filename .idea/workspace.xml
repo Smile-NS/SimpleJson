@@ -5,63 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ddbce65-db5a-4287-9c82-2f658d9b1caf" name="デフォルト変更リスト" comment="英語って難しい by一般人">
-      <change afterPath="$PROJECT_DIR$/.gitnore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/SimpleJson.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_0_rc1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_0_rc1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_7_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/1.0.0/javadoc/help-doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/1.0.0/javadoc/index-all.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/1.0.0/javadoc/io/github/smile_ns/simplejson/SimpleJson.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/1.0.0/javadoc/io/github/smile_ns/simplejson/SimpleJsonProperty.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/1.0.0/javadoc/io/github/smile_ns/simplejson/class-use/SimpleJson.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/1.0.0/javadoc/io/github/smile_ns/simplejson/class-use/SimpleJsonProperty.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/github/smile_ns/simplejson/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/javadoc-bundle-options/package-list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/1.0.0/javadoc/allclasses-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/1.0.0/javadoc/allclasses-noframe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/1.0.0/javadoc/constant-values.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/1.0.0/javadoc/deprecated-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/help-doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/1.0.0/javadoc/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/io/github/smile_ns/simplejson/SimpleJson.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/io/github/smile_ns/simplejson/SimpleJsonProperty.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/io/github/smile_ns/simplejson/class-use/SimpleJson.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/io/github/smile_ns/simplejson/class-use/SimpleJsonProperty.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/io/github/smile_ns/simplejson/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/1.0.0/javadoc/io/github/smile_ns/simplejson/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/io/github/smile_ns/simplejson/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/1.0.0/javadoc/io/github/smile_ns/simplejson/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/io/github/smile_ns/simplejson/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/1.0.0/javadoc/io/github/smile_ns/simplejson/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/io/github/smile_ns/simplejson/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/1.0.0/javadoc/io/github/smile_ns/simplejson/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/1.0.0/javadoc/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/docs/1.0.0/javadoc/package-list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/1.0.0/javadoc/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/1.0.0/javadoc/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SimpleJson.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SimpleJson.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SimpleJson-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/SimpleJson-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/smile_ns/simplejson/SimpleJson$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/smile_ns/simplejson/SimpleJson$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/smile_ns/simplejson/SimpleJson$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/smile_ns/simplejson/SimpleJson$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/smile_ns/simplejson/SimpleJson$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/smile_ns/simplejson/SimpleJson$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/smile_ns/simplejson/SimpleJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/smile_ns/simplejson/SimpleJson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/smile_ns/simplejson/SimpleJsonProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/smile_ns/simplejson/SimpleJsonProperty.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/smile_ns/simplejson/debug/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/smile_ns/simplejson/SimpleJsonProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/smile_ns/simplejson/SimpleJsonProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SimpleJson-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/smile_ns/simplejson/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +41,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="モジュール" />
+    <property name="project.structure.last.edited" value="プロジェクト" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -339,7 +292,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617360176620</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Javadocを更新するために一回クリーン">
+      <created>1617360768831</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617360768831</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Javadocの更新">
+      <created>1617360841816</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1617360841816</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -362,6 +329,8 @@
     <MESSAGE value="Javadocの追加を忘れてた" />
     <MESSAGE value="Javadocととその他諸々のコミット" />
     <MESSAGE value="Javadocとその他諸々のコミット" />
-    <option name="LAST_COMMIT_MESSAGE" value="Javadocとその他諸々のコミット" />
+    <MESSAGE value="Javadocを更新するために一回クリーン" />
+    <MESSAGE value="Javadocの更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="Javadocの更新" />
   </component>
 </project>

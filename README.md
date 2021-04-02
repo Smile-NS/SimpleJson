@@ -57,7 +57,7 @@ json.put("name", "test");
 ```
 In this way, you can also put a value for a deep node.  
 Separate with '.'
-When try to find a node that doesn't exsist, create an empty node.
+When try to find it that doesn't exsist, create empty one.
 ```java
 SimpleJson json = new SimpleJson();
 json.put("smile.iq", 80);
@@ -140,18 +140,18 @@ json.getList("key2");
 Convert and get an object.
 <dl>
   <dt>SimpleJson#toString()</dt>
-  <dd>Convert an object to String</dd>
+  <dd>Convert it to String</dd>
   <dt>SimpleJson#toJsonNode()</dt>
-  <dd>Convert an object to JsonNode</dd>
+  <dd>Convert it to JsonNode</dd>
   <dt>SimpleJson#toJavaObject()</dt>
-  <dd>Convert an object to an instance of the specified class</dd>
+  <dd>Convert it to an instance of the specified class</dd>
   <dt>SimpleJson#toMap()</dt>
-  <dd>Convert an object to Map</dd>
+  <dd>Convert it to Map</dd>
 </dl>
 
 ### Save
 Save in a file.  
-If you don't set a file to save from a constructor or SimpleJsonProperty#setFile(file), you can't save.
+If you don't set it to save from a constructor or SimpleJsonProperty#setFile(file), you can't save.
 ```java
 json.save();
 ```
