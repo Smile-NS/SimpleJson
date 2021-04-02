@@ -24,7 +24,8 @@ implementation 'io.github.smile-ns.simplejson:SimpleJson:1.0.0'
 # Javadoc
 Javadoc
 # How to use?
-These are ways to use and example codes. 
+These are ways to use and example codes.  
+Also look at Javadoc because not all written here. 
 ### Create an object.
 An empty object. 
 ```java
@@ -42,10 +43,6 @@ SimpleJson json = new SimpleJson(new Foo());
 An object with a string.
 ```java
 SimpleJson json = new SimpleJson("{\"smile\":\"noob\"}");
-```
-An object with JsonNode.
-```java
-SimpleJson json = new SimpleJson(JsonNode);
 ```
 ### Put
 Put a (pseudo) primitive type element.
@@ -130,7 +127,33 @@ json.put("json2", json2);
 ```
 ### Remove
 Remove a selected node.  
-Like "put", you can remove a deep node.
+Like "put", you can remove deep nodes.
 ```java
 json.remove(key, value);
+```
+### Get
+Get a selected node as (pseudo) primitive type, their wrapper classes, or reference type.
+You can get from a deep node, too.
+```java
+json.getInt("key");
+json.getList("key2");
+```
+### Conversion
+Convert and get an object.
+<dl>
+  <dt>SimpleJson#toString()</dt>
+  <dd>Convert an object to String</dd>
+  <dt>SimpleJson#toJsonNode()</dt>
+  <dd>Convert an object to JsonNode</dd>
+  <dt>SimpleJson#toJavaObject()</dt>
+  <dd>Convert an object to an instance of the specified class</dd>
+  <dt>SimpleJson#toMap()</dt>
+  <dd>Convert an object to Map</dd>
+</dl>
+
+### Save
+Save in a file.
+If doesn't specify a file to save from a constructor or SimpleJsonProperty#setFile(file), you can't save.
+```java
+json.save();
 ```
