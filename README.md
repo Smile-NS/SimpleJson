@@ -135,7 +135,7 @@ You can get from a deep node, too.
 json.getInt("key");
 json.getList("key2");
 ```
-### Conversion
+### Convert
 Convert and get an object.
 <dl>
   <dt>SimpleJson#toString()</dt>
