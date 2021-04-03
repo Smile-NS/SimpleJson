@@ -130,7 +130,7 @@ Like "put", you can remove deep nodes.
 json.remove(key, value);
 ```
 ### Get
-Get a selected node as (pseudo) primitive type, their wrapper classes, or reference type.
+Get a selected node as (pseudo) primitive type, their wrapper classes, or reference type.  
 You can get from a deep node, too.
 ```java
 json.getInt("key");
