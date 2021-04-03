@@ -6,20 +6,17 @@ You can also make handle to deep nodes with a symbol.
 The library was made using [Jackson](https://github.com/FasterXML/jackson).
 # Download
 * ver1.0.0:  [SimpleJson-1.0.0.jar](https://github.com/Smile-NS/SimpleJson/raw/master/target/SimpleJson-1.0.0.jar)
-# Dependencies 
 #### maven
 ```xml
-<!-- https://github.com/Smile-NS/SimpleJson -->
-<dependency>
-  <groupId>io.github.smile-ns.simplejson</groupId>
-  <artifactId>SimpleJson</artifactId>
-  <version>1.0.0</version>
-</dependency>
-```
-#### gradle
-```gradle
-// https://github.com/Smile-NS/SimpleJson
-implementation 'io.github.smile-ns.simplejson:SimpleJson:1.0.0'
+<repositories>
+    ...
+    <repository>
+        <id>github</id>
+        <name>SimpleJson</name>
+        <url>https://raw.githubusercontent.com/Smile-NS/SimpleJson/mvn-repo/</url>
+    </repository>
+    ...
+</repositories>
 ```
 # Javadoc
 [Javadoc](https://smile-ns.github.io/SimpleJson/1.0.0/javadoc)
@@ -130,7 +127,7 @@ Like "put", you can remove deep nodes.
 json.remove(key, value);
 ```
 ### Get
-Get a selected node as (pseudo) primitive type, their wrapper classes, or reference type.
+Get a selected node as (pseudo) primitive type, their wrapper classes, or reference type.  
 You can get from a deep node, too.
 ```java
 json.getInt("key");
