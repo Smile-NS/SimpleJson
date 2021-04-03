@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ddbce65-db5a-4287-9c82-2f658d9b1caf" name="デフォルト変更リスト" comment="英語って難しい by一般人">
-      <change beforePath="$PROJECT_DIR$/.idea/SimpleJson.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SimpleJson.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SimpleJson-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/SimpleJson-1.0.0.jar" afterDir="false" />
-    </list>
+    <list default="true" id="3ddbce65-db5a-4287-9c82-2f658d9b1caf" name="デフォルト変更リスト" comment="英語って難しい by一般人" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -307,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617386102822</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="GitHubにMavenリポジトリを構築するように">
+      <created>1617439675940</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1617439675940</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -333,6 +335,7 @@
     <MESSAGE value="Javadocを更新するために一回クリーン" />
     <MESSAGE value="Javadocの更新" />
     <MESSAGE value="ガバガバいんぐりっしゅの修正" />
-    <option name="LAST_COMMIT_MESSAGE" value="ガバガバいんぐりっしゅの修正" />
+    <MESSAGE value="GitHubにMavenリポジトリを構築するように" />
+    <option name="LAST_COMMIT_MESSAGE" value="GitHubにMavenリポジトリを構築するように" />
   </component>
 </project>
