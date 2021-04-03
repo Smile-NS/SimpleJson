@@ -7,14 +7,8 @@
     <list default="true" id="3ddbce65-db5a-4287-9c82-2f658d9b1caf" name="デフォルト変更リスト" comment="英語って難しい by一般人">
       <change beforePath="$PROJECT_DIR$/.idea/SimpleJson.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SimpleJson.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/smile_ns/simplejson/SimpleJsonProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/smile_ns/simplejson/SimpleJsonProperty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SimpleJson-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/smile_ns/simplejson/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/package-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SimpleJson-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/SimpleJson-1.0.0.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +39,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Maven.SimpleJson [javadoc:javadoc]">
+  <component name="RunManager" selected="Maven.SimpleJson [deploy]">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.github.smile_ns.simplejson.Main" />
       <module name="SimpleJson" />
@@ -306,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617360841816</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ガバガバいんぐりっしゅの修正">
+      <created>1617386102821</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1617386102822</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -331,6 +332,7 @@
     <MESSAGE value="Javadocとその他諸々のコミット" />
     <MESSAGE value="Javadocを更新するために一回クリーン" />
     <MESSAGE value="Javadocの更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="Javadocの更新" />
+    <MESSAGE value="ガバガバいんぐりっしゅの修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="ガバガバいんぐりっしゅの修正" />
   </component>
 </project>
