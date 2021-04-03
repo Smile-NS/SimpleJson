@@ -9,12 +9,15 @@ The library was made using [Jackson](https://github.com/FasterXML/jackson).
 # Dependencies 
 #### maven
 ```xml
-<!-- https://github.com/Smile-NS/SimpleJson -->
-<dependency>
-  <groupId>io.github.smile-ns.simplejson</groupId>
-  <artifactId>SimpleJson</artifactId>
-  <version>1.0.0</version>
-</dependency>
+<repositories>
+    ...
+    <repository>
+        <id>github</id>
+        <name>SimpleJson</name>
+        <url>https://raw.githubusercontent.com/Smile-NS/SimpleJson/mvn-repo/</url>
+    </repository>
+    ...
+</repositories>
 ```
 #### gradle
 ```gradle
