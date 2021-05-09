@@ -21,9 +21,9 @@ The library was made using [Jackson](https://github.com/FasterXML/jackson).
 <dependencies>
     ...
     <dependency>
-        <groupId>io.github.twosquirrels</groupId>
-        <artifactId>httpasfunctions</artifactId>
-        <version>1.3.0</version>
+        <groupId>io.github.smile-ns.simplejson</groupId>
+        <artifactId>SimpleJson</artifactId>
+        <version>1.0.0</version>
     </dependency>
     ...
 </dependencies>
