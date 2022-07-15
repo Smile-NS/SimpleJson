@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.*;
 
 /**
- * SimpleJson
+ * SimpleJson-test
  * Made with Jackson
  * @author Smile_NS
  * @version 1.0.0
