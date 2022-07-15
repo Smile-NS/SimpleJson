@@ -143,13 +143,13 @@ json.getList("key2");
 Convert and get an object.
 <dl>
   <dt>SimpleJson#toString()</dt>
-  <dd>Convert it to String</dd>
+  <dd>Convert an object into String</dd>
   <dt>SimpleJson#toJsonNode()</dt>
-  <dd>Convert it to JsonNode</dd>
+  <dd>Convert an object into JsonNode</dd>
   <dt>SimpleJson#toJavaObject()</dt>
-  <dd>Convert it to an instance of the specified class</dd>
+  <dd>Convert an object into an instance of the specified class</dd>
   <dt>SimpleJson#toMap()</dt>
-  <dd>Convert it to Map</dd>
+  <dd>Convert an object into Map</dd>
 </dl>
 
 ### Save
