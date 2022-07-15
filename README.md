@@ -2,7 +2,7 @@
 # What is this?
 SimpleJson is a library for writing or reading JSON easily.  
 You can use as similar to Map.  
-The library was made using [Jackson](https://github.com/FasterXML/jackson).
+This library was made using [Jackson](https://github.com/FasterXML/jackson).
 # Download
 * ver1.0.0:  [SimpleJson-1.0.0.jar](https://github.com/Smile-NS/SimpleJson/raw/master/target/SimpleJson-1.0.0.jar)
 #### maven
