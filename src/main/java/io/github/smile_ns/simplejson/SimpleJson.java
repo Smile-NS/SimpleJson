@@ -31,7 +31,7 @@ public class SimpleJson extends SimpleJsonProperty {
 
     /**
      * Create an object with the specified file to save.
-     * If already the file exists, create one by referencing the file.
+     * If the file already exists, create one by referencing the file.
      * @param file file to save
      * @throws IOException if a low-level I/O problem (unexpected end-of-input, network error)
      * occurs (passed through as-is without additional wrapping -- note that this is one case where.

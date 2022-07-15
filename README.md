@@ -16,6 +16,16 @@ The library was made using [Jackson](https://github.com/FasterXML/jackson).
     </repository>
     ...
 </repositories>
+
+<dependencies>
+    ...
+    <dependency>
+        <groupId>io.github.smile-ns.simplejson</groupId>
+        <artifactId>SimpleJson</artifactId>
+        <version>1.0.0</version>
+    </dependency>
+    ...
+</dependencies>
 ```
 # Javadoc
 [Javadoc](https://smile-ns.github.io/SimpleJson/1.0.0/javadoc)
