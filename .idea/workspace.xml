@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ddbce65-db5a-4287-9c82-2f658d9b1caf" name="デフォルト変更リスト" comment="英語って難しい by一般人">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3ddbce65-db5a-4287-9c82-2f658d9b1caf" name="デフォルト変更リスト" comment="英語って難しい by一般人" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -344,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657876045669</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fix: JavaDoc修正">
+      <created>1657876554360</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1657876554360</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -372,6 +377,7 @@
     <MESSAGE value="ガバガバいんぐりっしゅの修正" />
     <MESSAGE value="GitHubにMavenリポジトリを構築するように" />
     <MESSAGE value="fix: ガバガバいんぐりっしゅの修正" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: ガバガバいんぐりっしゅの修正" />
+    <MESSAGE value="fix: JavaDoc修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: JavaDoc修正" />
   </component>
 </project>
