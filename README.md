@@ -1,8 +1,7 @@
 # SimpleJson
 # What is this?
-SimpleJson is a library for easily writing or reading JSON.  
-You can use like Map.  
-You can also make handle to deep nodes with a symbol.  
+SimpleJson is a library for writing or reading JSON easily.  
+You can use as similar to Map.  
 The library was made using [Jackson](https://github.com/FasterXML/jackson).
 # Download
 * ver1.0.0:  [SimpleJson-1.0.0.jar](https://github.com/Smile-NS/SimpleJson/raw/master/target/SimpleJson-1.0.0.jar)
@@ -31,8 +30,8 @@ The library was made using [Jackson](https://github.com/FasterXML/jackson).
 # Javadoc
 [Javadoc](https://smile-ns.github.io/SimpleJson/1.0.0/javadoc)
 # How to use?
-These are ways to use and example codes.  
-But also look at Javadoc because not all written here. 
+Here we show you how to use it and some sample code.  
+However, you will need to look at the JavaDoc, as not everything here is available.  
 ### Create an object. 
 ```java
 SimpleJson json = new SimpleJson(); // An empty object.
@@ -62,9 +61,8 @@ json.put("name", "test");
   "name": "test"
 }
 ```
-In this way, you can also put a value for a deep node.  
-Separate with '.'
-When try to find it that doesn't exsist, create empty one.
+You can put a value in a deep node with separate characters.  
+If the node doesn't exist, SimpleJson creates an empty node.  
 ```java
 SimpleJson json = new SimpleJson();
 json.put("smile.iq", 80);
@@ -116,7 +114,6 @@ json.put("Foo", new Foo());
   }
 }
 ```
-When put a reference type element, using SimpleJson#put(String, SimpleJson) is the fastest.
 ```java
 SimpleJson json = new SimpleJson();
 SimpleJson json2 = new SimpleJson();
@@ -131,14 +128,13 @@ json.put("json2", json2);
 }
 ```
 ### Remove
-Remove a selected node.  
-Like "put", you can remove deep nodes.
+Remove a node.  
+You can operate as well as put.  
 ```java
 json.remove(key, value);
 ```
 ### Get
-Get a selected node as (pseudo) primitive type, their wrapper classes, or reference type.  
-You can get from a deep node, too.
+Get a node as (pseudo) primitive type, their wrapper classes, or reference type.  
 ```java
 json.getInt("key");
 json.getList("key2");
@@ -158,7 +154,7 @@ Convert and get an object.
 
 ### Save
 Save in a file.  
-If you don't set it to save from a constructor or SimpleJsonProperty#setFile(file), you can't save.
+You can't save if you haven't set a file to save from a constructor or SimpleJsonProperty#setFile(file).  
 ```java
 json.save();
 ```
