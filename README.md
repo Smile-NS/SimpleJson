@@ -2,7 +2,7 @@
 # What is this?
 SimpleJson is a library for writing or reading JSON easily.  
 You can use as similar to Map.  
-The library was made using [Jackson](https://github.com/FasterXML/jackson).
+This library was made using [Jackson](https://github.com/FasterXML/jackson).
 # Download
 * ver1.0.0:  [SimpleJson-1.0.0.jar](https://github.com/Smile-NS/SimpleJson/raw/master/target/SimpleJson-1.0.0.jar)
 #### maven
@@ -143,13 +143,13 @@ json.getList("key2");
 Convert and get an object.
 <dl>
   <dt>SimpleJson#toString()</dt>
-  <dd>Convert it to String</dd>
+  <dd>Convert an object into String</dd>
   <dt>SimpleJson#toJsonNode()</dt>
-  <dd>Convert it to JsonNode</dd>
+  <dd>Convert an object into JsonNode</dd>
   <dt>SimpleJson#toJavaObject()</dt>
-  <dd>Convert it to an instance of the specified class</dd>
+  <dd>Convert an object into an instance of the specified class</dd>
   <dt>SimpleJson#toMap()</dt>
-  <dd>Convert it to Map</dd>
+  <dd>Convert an object into Map</dd>
 </dl>
 
 ### Save
