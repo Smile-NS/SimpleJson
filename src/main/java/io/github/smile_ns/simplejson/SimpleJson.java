@@ -13,7 +13,6 @@ import java.util.*;
 
 /**
  * SimpleJson
- * Made with Jackson
  * @author Smile_NS
  * @version 1.0.0
  */
