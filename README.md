@@ -37,15 +37,15 @@ However, you will need to look at the JavaDoc, as not everything here is availab
 SimpleJson json = new SimpleJson(); // An empty object.
 ```
 ```java
-// An object with the specified file to save.  
-// If already the file exists, create one by referencing the file.
+// An object of a json file.  
+// If the file already exists, SimpleJson creates a new file by the path.
 SimpleJson json = new SimpleJson(file);
 ```
 ```java
-SimpleJson json = new SimpleJson(new Foo()); // An object with another instance.
+SimpleJson json = new SimpleJson(new Foo()); // An object of an instance.
 ```
 ```java
-SimpleJson json = new SimpleJson("{\"smile\":\"noob\"}"); // An object with a string.
+SimpleJson json = new SimpleJson("{\"smile\":\"noob\"}"); // An object of a json text.
 ```
 ### Put
 Put a (pseudo) primitive type element.
