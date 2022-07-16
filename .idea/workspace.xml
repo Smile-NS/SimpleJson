@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ddbce65-db5a-4287-9c82-2f658d9b1caf" name="デフォルト変更リスト" comment="英語って難しい by一般人">
-      <change beforePath="$PROJECT_DIR$/.idea/SimpleJson.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SimpleJson.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/smile_ns/simplejson/SimpleJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/smile_ns/simplejson/SimpleJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SimpleJson-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/smile_ns/simplejson/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/smile_ns/simplejson/SimpleJson$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/smile_ns/simplejson/SimpleJson$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/smile_ns/simplejson/SimpleJson$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/smile_ns/simplejson/SimpleJson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/smile_ns/simplejson/SimpleJsonProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
