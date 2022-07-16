@@ -3,8 +3,8 @@ package io.github.smile_ns.simplejson;
 import java.io.File;
 
 /**
- * Class for setting properties of an object.
- * This class will be extended by SimpleJson.
+ * Class to set properties of a SimpleJson object.
+ * This class is extended by SimpleJson.
  */
 public class SimpleJsonProperty {
 
@@ -24,7 +24,7 @@ public class SimpleJsonProperty {
     }
 
     /**
-     * Specify a file to save.
+     * Set a file to save.
      * @param file file to save.
      */
     public void setFile(File file) {
@@ -40,17 +40,17 @@ public class SimpleJsonProperty {
     }
 
     /**
-     * Set an symbol of hierarchy.
+     * Set an symbol as a delimiter character.
      * The default value is "\\.".
-     * @param separator symbol of hierarchy
+     * @param separator symbol as a delimiter character
      */
     public void setSeparator(String separator) {
         this.separator = separator;
     }
 
     /**
-     * Set whether to object handles deep nodes.
-     * If set true, you will be able to specify the hierarchy with a symbol.
+     * Set whether the object handles deep nodes.
+     * If you set true, you will be able to specify the hierarchy with a symbol.
      * The default value is true.
      * @param deep True if you want to be able to specify the hierarchy with a symbol.
      */
@@ -59,9 +59,9 @@ public class SimpleJsonProperty {
     }
 
     /**
-     * Set whether to when try to find a node that doesn't exist, create empty one.
+     * Set whether SimpleJson creates an empty node when SimpleJson tries to find the node that doesn't exist.
      * The default value is true.
-     * @param autoCreateNode True if you want to create an empty node.
+     * @param autoCreateNode True if you want SimpleJson to create an empty node.
      */
     public void setAutoCreateNode(boolean autoCreateNode) {
         this.autoCreateNode = autoCreateNode;

@@ -37,15 +37,15 @@ However, you will need to look at the JavaDoc, as not everything here is availab
 SimpleJson json = new SimpleJson(); // An empty object.
 ```
 ```java
-// An object of a json file.  
+// An object from the json file.  
 // If the file already exists, SimpleJson creates a new file by the path.
 SimpleJson json = new SimpleJson(file);
 ```
 ```java
-SimpleJson json = new SimpleJson(new Foo()); // An object of an instance.
+SimpleJson json = new SimpleJson(new Foo()); // An object from the instance.
 ```
 ```java
-SimpleJson json = new SimpleJson("{\"smile\":\"noob\"}"); // An object of a json text.
+SimpleJson json = new SimpleJson("{\"smile\":\"noob\"}"); // An object from the json text.
 ```
 ### Put
 Put a (pseudo) primitive type element.
@@ -61,7 +61,7 @@ json.put("name", "test");
   "name": "test"
 }
 ```
-You can put a value in a deep node with separate characters.  
+You can put a value in a deep node with delimiter characters.  
 If the node doesn't exist, SimpleJson creates an empty node.  
 ```java
 SimpleJson json = new SimpleJson();
@@ -143,18 +143,18 @@ json.getList("key2");
 Convert and get an object.
 <dl>
   <dt>SimpleJson#toString()</dt>
-  <dd>Convert an object into String</dd>
+  <dd>Convert the object into String</dd>
   <dt>SimpleJson#toJsonNode()</dt>
-  <dd>Convert an object into JsonNode</dd>
+  <dd>Convert the object into JsonNode</dd>
   <dt>SimpleJson#toJavaObject()</dt>
-  <dd>Convert an object into an instance of the specified class</dd>
+  <dd>Convert the object into an instance of the set class</dd>
   <dt>SimpleJson#toMap()</dt>
-  <dd>Convert an object into Map</dd>
+  <dd>Convert the object into Map</dd>
 </dl>
 
 ### Save
 Save in a file.  
-You can't save if you haven't set a file to save from a constructor or SimpleJsonProperty#setFile(file).  
+You can't save if you haven't set the file to save from the constructor or SimpleJsonProperty#setFile(file).  
 ```java
 json.save();
 ```

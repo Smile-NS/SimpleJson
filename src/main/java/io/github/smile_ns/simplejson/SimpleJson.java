@@ -29,8 +29,8 @@ public class SimpleJson extends SimpleJsonProperty {
     }
 
     /**
-     * Create an object with the specified file to save.
-     * If the file already exists, create one by referencing the file.
+     * Create an object from the json file.
+     * If the file already exists, SimpleJson creates a new file by the path.
      * @param file file to save
      * @throws IOException if a low-level I/O problem (unexpected end-of-input, network error)
      * occurs (passed through as-is without additional wrapping -- note that this is one case where.
@@ -45,8 +45,8 @@ public class SimpleJson extends SimpleJsonProperty {
     }
 
     /**
-     * Create an object with another instance.
-     * @param obj referenced instance.
+     * Create an object from an instance.
+     * @param obj referenced instance
      */
     public SimpleJson(Object obj) {
         JsonNode node = mapper.convertValue(obj, JsonNode.class);
@@ -54,7 +54,7 @@ public class SimpleJson extends SimpleJsonProperty {
     }
 
     /**
-     * Crate an object with a string.
+     * Crate an object from the json text.
      * @param content referenced instance.
      * @throws IOException if a low-level I/O problem (unexpected end-of-input, network error)
      * occurs (passed through as-is without additional wrapping -- note that this is one case where.
@@ -66,15 +66,15 @@ public class SimpleJson extends SimpleJsonProperty {
     }
 
     /**
-     * Create an object with JsonNode.
-     * @param node referenced JsonNode.
+     * Create an object from JsonNode.
+     * @param node referenced JsonNode
      */
     public SimpleJson(JsonNode node) {
         root = node.deepCopy();
     }
 
     /**
-     * Write JSON in a file.
+     * Write JSON to the file.
      * @throws IOException When fail to write.
      */
     public void save() throws IOException{
@@ -82,9 +82,9 @@ public class SimpleJson extends SimpleJsonProperty {
     }
 
     /**
-     * Get the key set contained in the selected node.
+     * Get all of keys contained in the node.
      * @param fieldPath node path
-     * @return the key set contained in the selected node
+     * @return all of keys contained in the node
      */
     public Set<String> getKeySet(String fieldPath) {
         Map<String, Object> map = getMap(fieldPath);
@@ -94,7 +94,7 @@ public class SimpleJson extends SimpleJsonProperty {
     /**
      * Get the node as JsonNode.
      * @param fieldPath node path
-     * @return the node as JsonNode
+     * @return node as JsonNode
      */
     public JsonNode getNode(String fieldPath) {
         JsonNode node = root.deepCopy();
@@ -111,7 +111,7 @@ public class SimpleJson extends SimpleJsonProperty {
     /**
      * Get the node as SimpleJson.
      * @param fieldPath node path
-     * @return the node as SimpleJson
+     * @return node as SimpleJson
      */
     public SimpleJson getJsonObject(String fieldPath) {
         JsonNode node = getNode(fieldPath);
@@ -121,7 +121,7 @@ public class SimpleJson extends SimpleJsonProperty {
     /**
      * Get the node as String.
      * @param fieldPath node path
-     * @return the node as String
+     * @return node as String
      */
     public String getString(String fieldPath){
         return getNode(fieldPath).asText();
@@ -130,7 +130,7 @@ public class SimpleJson extends SimpleJsonProperty {
     /**
      * Get the node as boolean.
      * @param fieldPath node path
-     * @return the node as Boolean
+     * @return node as Boolean
      */
     public boolean getBoolean(String fieldPath){
         return getNode(fieldPath).asBoolean();
@@ -139,7 +139,7 @@ public class SimpleJson extends SimpleJsonProperty {
     /**
      * Get the node as double.
      * @param fieldPath node path
-     * @return the node as double
+     * @return node as double
      */
     public double getDouble(String fieldPath){
         return getNode(fieldPath).asDouble();
@@ -148,7 +148,7 @@ public class SimpleJson extends SimpleJsonProperty {
     /**
      * Get the node as int.
      * @param fieldPath node path
-     * @return the node as int
+     * @return node as int
      */
     public int getInt(String fieldPath){
         return getNode(fieldPath).asInt();
@@ -157,7 +157,7 @@ public class SimpleJson extends SimpleJsonProperty {
     /**
      * Get the node as long.
      * @param fieldPath node path
-     * @return the node as long
+     * @return node as long
      */
     public long getLong(String fieldPath){
         return getNode(fieldPath).asLong();
@@ -166,7 +166,7 @@ public class SimpleJson extends SimpleJsonProperty {
     /**
      * Get the node as Map.
      * @param fieldPath node path
-     * @return the node as Map
+     * @return node as Map
      */
     public Map<String, Object> getMap(String fieldPath) {
         JsonNode node = getNode(fieldPath);
@@ -176,7 +176,7 @@ public class SimpleJson extends SimpleJsonProperty {
     /**
      * Get the node as List.
      * @param fieldPath node path
-     * @return the node as List
+     * @return node as List
      */
     public List<Object> getList(String fieldPath) {
         JsonNode node = getNode(fieldPath);
@@ -184,19 +184,19 @@ public class SimpleJson extends SimpleJsonProperty {
     }
 
     /**
-     * Get the node as an instance of the specified class.
+     * Get the node as an instance of the set class.
      * @param fieldPath node path
      * @param c class type
-     * @return the node as an instance of the specified class
+     * @return node as an instance of the set class
      */
     public <T> T getJavaObject(String fieldPath, Class<T> c) {
         return mapper.convertValue(getNode(fieldPath), c);
     }
 
     /**
-     * Check if contains the node.
+     * Check whether the SimpleJson object contains the node.
      * @param fieldPath node path
-     * @return True if contains the node.
+     * @return True if the SimpleJson object contains the node.
      */
     public boolean containsNode(String fieldPath){
         JsonNode node = getNode(fieldPath);
@@ -204,7 +204,7 @@ public class SimpleJson extends SimpleJsonProperty {
     }
 
     /**
-     * Check if the object is empty.
+     * Check whether the object is empty.
      * @return True if the object is empty.
      */
     public boolean isEmpty(){
@@ -212,7 +212,7 @@ public class SimpleJson extends SimpleJsonProperty {
     }
 
     /**
-     * Get the shallowest node amount.
+     * Get an amount of the shallowest nodes.
      * @return node amount
      */
     public int size(){
@@ -232,14 +232,14 @@ public class SimpleJson extends SimpleJsonProperty {
     }
 
     /**
-     * Clear contents of the object.
+     * Clear the contents in the object.
      */
     public void clear() {
         root.removeAll();
     }
 
     /**
-     * Clear contents of the selected node.
+     * Clear the contents in the node.
      * @param fieldPath node path
      */
     public void clear(String fieldPath) {
@@ -458,7 +458,6 @@ public class SimpleJson extends SimpleJsonProperty {
 
     /**
      * Put a Map.
-     * Using SimpleJson#put(String, SimpleJson) is faster than using this method.
      * @param fieldPath node path
      * @param v Map
      */
@@ -477,8 +476,8 @@ public class SimpleJson extends SimpleJsonProperty {
     }
 
     /**
-     * Convert the contents of the object to a string.
-     * @return the contents of the object converted to a string.
+     * Convert the contents in the object into a json text.
+     * @return the contents converted into a json text.
      */
     @Override
     public String toString() {
@@ -491,24 +490,24 @@ public class SimpleJson extends SimpleJsonProperty {
     }
 
     /**
-     * Convert the contents of the object to JsonNode.
-     * @return the contents of the object converted to JsonNode.
+     * Convert the contents in the object into JsonNode.
+     * @return the contents converted into JsonNode.
      */
     public JsonNode toJsonNode() {
         return root.deepCopy();
     }
 
     /**
-     * Convert the contents of the object to an instance of the specified class.
-     * @return the contents of the object converted to an instance of the specified class.
+     * Convert the contents in the object into an instance of the set class.
+     * @return the contents converted into an instance of the set class.
      */
     public <T> T toJavaObject(Class<T> c) throws IOException {
         return mapper.readValue(toString(), c);
     }
 
     /**
-     * Convert the contents of the object to Map.
-     * @return the contents of the object converted to Map.
+     * Convert the contents in the object into Map.
+     * @return the contents converted into Map.
      */
     public Map<String, Object> toMap(){
         return mapper.convertValue(root, new TypeReference<Map<String, Object>>() {});
