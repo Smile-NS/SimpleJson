@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ddbce65-db5a-4287-9c82-2f658d9b1caf" name="デフォルト変更リスト" comment="英語って難しい by一般人">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SimpleJson-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/SimpleJson-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/package-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvn-repo/io/github/smile-ns/simplejson/SimpleJson/1.0.0/SimpleJson-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvn-repo/io/github/smile-ns/simplejson/SimpleJson/1.0.0/SimpleJson-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvn-repo/io/github/smile-ns/simplejson/SimpleJson/1.0.0/SimpleJson-1.0.0.jar.md5" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvn-repo/io/github/smile-ns/simplejson/SimpleJson/1.0.0/SimpleJson-1.0.0.jar.md5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvn-repo/io/github/smile-ns/simplejson/SimpleJson/1.0.0/SimpleJson-1.0.0.jar.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvn-repo/io/github/smile-ns/simplejson/SimpleJson/1.0.0/SimpleJson-1.0.0.jar.sha1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvn-repo/io/github/smile-ns/simplejson/SimpleJson/maven-metadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvn-repo/io/github/smile-ns/simplejson/SimpleJson/maven-metadata.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvn-repo/io/github/smile-ns/simplejson/SimpleJson/maven-metadata.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvn-repo/io/github/smile-ns/simplejson/SimpleJson/maven-metadata.xml.md5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvn-repo/io/github/smile-ns/simplejson/SimpleJson/maven-metadata.xml.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvn-repo/io/github/smile-ns/simplejson/SimpleJson/maven-metadata.xml.sha1" afterDir="false" />
-    </list>
+    <list default="true" id="3ddbce65-db5a-4287-9c82-2f658d9b1caf" name="デフォルト変更リスト" comment="英語って難しい by一般人" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -419,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1778050769976</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fix: refresh mvn-repo">
+      <created>1778075920835</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1778075920835</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
