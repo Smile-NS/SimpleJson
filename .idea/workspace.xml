@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ddbce65-db5a-4287-9c82-2f658d9b1caf" name="デフォルト変更リスト" comment="英語って難しい by一般人">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/smile_ns/simplejson/SimpleJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/smile_ns/simplejson/SimpleJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/smile_ns/simplejson/SimpleJsonProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/smile_ns/simplejson/SimpleJsonProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SimpleJson-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/SimpleJson-1.0.0.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Maven.SimpleJson [javadoc:javadoc]">
+  <component name="RunManager" selected="Maven.SimpleJson [deploy]">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.github.smile_ns.simplejson.Main" />
       <module name="SimpleJson" />
