@@ -1,8 +1,8 @@
 # SimpleJson
 # What is this?
 SimpleJson is a library for writing or reading JSON easily.  
-You can use as similar to Map.  
-This library was made using [Jackson](https://github.com/FasterXML/jackson).
+You can use it as similar to Map.   
+The library was made using [Jackson](https://github.com/FasterXML/jackson).
 # Download
 * ver1.0.0:  [SimpleJson-1.0.0.jar](https://github.com/Smile-NS/SimpleJson/raw/master/target/SimpleJson-1.0.0.jar)
 #### maven
@@ -37,15 +37,15 @@ However, you will need to look at the JavaDoc, as not everything here is availab
 SimpleJson json = new SimpleJson(); // An empty object.
 ```
 ```java
-// An object from the json file.  
-// If the file already exists, SimpleJson creates a new file by the path.
+// An object with the specified file to save.  
+// If already the file exists, create one by referencing the file.
 SimpleJson json = new SimpleJson(file);
 ```
 ```java
-SimpleJson json = new SimpleJson(new Foo()); // An object from the instance.
+SimpleJson json = new SimpleJson(new Foo()); // An object with an instance.
 ```
 ```java
-SimpleJson json = new SimpleJson("{\"smile\":\"noob\"}"); // An object from the json text.
+SimpleJson json = new SimpleJson("{\"smile\":\"noob\"}"); // An object with a string.
 ```
 ### Put
 Put a (pseudo) primitive type element.
@@ -61,7 +61,7 @@ json.put("name", "test");
   "name": "test"
 }
 ```
-You can put a value in a deep node with delimiter characters.  
+you can put a value in a deep node with separate characters like the bellow codes.  
 If the node doesn't exist, SimpleJson creates an empty node.  
 ```java
 SimpleJson json = new SimpleJson();
@@ -129,12 +129,12 @@ json.put("json2", json2);
 ```
 ### Remove
 Remove a node.  
-You can operate as well as put.  
+You can operate as well as "put".
 ```java
 json.remove(key, value);
 ```
 ### Get
-Get a node as (pseudo) primitive type, their wrapper classes, or reference type.  
+Get a node as (pseudo) primitive type, their wrapper classes, or reference type.    
 ```java
 json.getInt("key");
 json.getList("key2");
@@ -143,18 +143,18 @@ json.getList("key2");
 Convert and get an object.
 <dl>
   <dt>SimpleJson#toString()</dt>
-  <dd>Convert the object into String</dd>
+  <dd>Convert it to String</dd>
   <dt>SimpleJson#toJsonNode()</dt>
-  <dd>Convert the object into JsonNode</dd>
+  <dd>Convert it to JsonNode</dd>
   <dt>SimpleJson#toJavaObject()</dt>
-  <dd>Convert the object into an instance of the set class</dd>
+  <dd>Convert it to an instance of the specified class</dd>
   <dt>SimpleJson#toMap()</dt>
-  <dd>Convert the object into Map</dd>
+  <dd>Convert it to Map</dd>
 </dl>
 
 ### Save
 Save in a file.  
-You can't save if you haven't set the file to save from the constructor or SimpleJsonProperty#setFile(file).  
+You can't save if you don't set a file to save from a constructor or SimpleJsonProperty#setFile(file).  
 ```java
 json.save();
 ```
